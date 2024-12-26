@@ -1,4 +1,4 @@
-package com.example.tap_game
+package com.example.game_of_taps
 
 import io.flutter.embedding.android.FlutterActivity
 

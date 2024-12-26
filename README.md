@@ -1,4 +1,4 @@
-# tap_game
+# game_of_taps
 
 A new Flutter project.
 

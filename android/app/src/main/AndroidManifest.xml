@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="tap_game"
+        android:label="game_of_taps"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
