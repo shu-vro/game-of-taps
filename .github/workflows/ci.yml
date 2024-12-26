@@ -40,8 +40,8 @@ jobs:
               with:
                   artifacts: "build/app/outputs/flutter-apk/*.apk"
                   token: ${{ secrets.GITHUB_TOKEN }}
-                  release_name: "Release APK"
                   tag: v0.0.${{ github.ref }}
-                  release_body: "Release APK"
+                  name: Release ${{ github.ref }}
+                  body: "${{ github.event.head_commit.message }}"
                   draft: false
                   prerelease: false
